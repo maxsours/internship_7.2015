@@ -11,7 +11,7 @@ def divide(a,b):
     return a / b
     
 operation = {
-    "addition": add,
-    "subtraction": subtract,
-    "multiplication": multiply,
-    "division": divide}
+    "addition" : add,
+    "subtraction" : subtract,
+    "multiplication" : multiply,
+    "division" : divide}
