@@ -14,3 +14,8 @@ def ifthen_function():
         
 no_ifthen_function()
 ifthen_function()
+
+# in a terminal:
+# pip install -U memory_profiler
+# pip install psutil
+# python -m memory_profiler number_memory.py
