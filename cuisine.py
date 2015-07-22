@@ -1,5 +1,5 @@
 from cuisine_data import people_list
-
+# get stuff to not be hard-coded
 
 def compute_cooccurence(people_list=people_list):
     """
@@ -15,8 +15,9 @@ def compute_cooccurence(people_list=people_list):
 
     for people in people_list:
         for cuisine, preference in people.iteritems():
-            dic[preference] = True if preference == "likes" else False
+            dic[cuisine] = True if preference == "likes" else False
 
+#change this stuff to make it more generic
         if dic["Chinese"] and dic["Mexican"]:
             Chi_Mex += 1
         if dic["Chinese"] and dic["Indian"]:
